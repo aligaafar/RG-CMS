@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-image: url('https://yt3.googleusercontent.com/ZcAokd50rwf_0ZWw6QWoJ9l9R_TTEZqi0EP-ij-LeQagUjhdrs3__obIrEWf-Ft_K2gBDYlUbMw=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 0 5px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+footer a:hover {
+    background-color: #555;
+}
+
+footer img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.social-media-icons {
+    text-align: center;
+}
+
+.social-media-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
